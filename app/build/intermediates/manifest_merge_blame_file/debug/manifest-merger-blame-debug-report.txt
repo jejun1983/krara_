@@ -1,0 +1,490 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="m.idevel.hansolhomedeco"
+4    android:versionCode="3"
+5    android:versionName="1.2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:115:3-65
+11-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:115:20-62
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:116:3-79
+12-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:116:20-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:117:3-77
+13-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:117:20-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:118:3-66
+14-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:118:20-63
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:119:3-64
+15-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:119:20-61
+16
+17    <!-- 필수권한 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:122:3-73
+18-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:122:20-70
+19    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+19-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:123:3-69
+19-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:123:20-66
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 현재 기기 위치 -->
+20-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:125:3-77
+20-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:125:20-74
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:126:3-79
+21-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:126:20-76
+22    <uses-permission android:name="android.permission.CAMERA" /> <!-- 사진 찍기, 비디오 녹화 -->
+22-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:128:3-63
+22-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:128:20-60
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 사진, 미디어 파일 접근 -->
+23-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:129:3-78
+23-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:129:20-75
+24
+25    <uses-permission
+25-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:131:3-133:64
+26        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+26-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:133:5-61
+27        android:maxSdkVersion="29" />
+27-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:132:5-31
+28    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
+30        android:name="android.hardware.camera"
+30-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:26:9-47
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:27:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:28:5-30:36
+33        android:name="android.hardware.camera.front"
+33-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:29:9-53
+34        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+34-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:30:9-33
+35    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:33:5-35:36
+37        android:name="android.hardware.camera.autofocus"
+37-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:34:9-57
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:35:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:36:5-38:36
+40        android:name="android.hardware.camera.flash"
+40-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:37:9-53
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:38:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:39:5-41:36
+43        android:name="android.hardware.screen.landscape"
+43-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:40:9-57
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:41:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:42:5-44:36
+46        android:name="android.hardware.wifi"
+46-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:43:9-45
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:44:9-33
+48
+49    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+49-->[androidx.biometric:biometric:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/02f4aea923f2629b9f0388ca6279528f/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+49-->[androidx.biometric:biometric:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/02f4aea923f2629b9f0388ca6279528f/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+50    <uses-permission android:name="android.permission.USE_FINGERPRINT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[androidx.biometric:biometric:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/02f4aea923f2629b9f0388ca6279528f/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+50-->[androidx.biometric:biometric:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/02f4aea923f2629b9f0388ca6279528f/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:5-82
+51-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:28:22-79
+52    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+52-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/adceacdc527870b90fb70aa5501b7510/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+52-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/adceacdc527870b90fb70aa5501b7510/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+53-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+54
+55    <application
+55-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:6:3-113:17
+56        android:name="m.idevel.hansolhomedeco.MyApplication"
+56-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:12:5-57
+57        android:allowBackup="false"
+57-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:7:5-32
+58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+58-->[androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+59        android:debuggable="true"
+60        android:extractNativeLibs="false"
+61        android:hardwareAccelerated="true"
+61-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:8:5-39
+62        android:icon="@mipmap/lasola"
+62-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:9:5-34
+63        android:label="@string/app_name"
+63-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:10:5-37
+64        android:largeHeap="true"
+64-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:11:5-29
+65        android:requestLegacyExternalStorage="true"
+65-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:13:5-48
+66        android:theme="@style/MyAppTheme"
+66-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:14:5-38
+67        android:usesCleartextTraffic="true" >
+67-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:15:5-40
+68        <activity
+68-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:17:5-40:16
+69            android:name="m.idevel.hansolhomedeco.activity.MainActivity"
+69-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:22:7-67
+70            android:configChanges="locale|keyboard|keyboardHidden|orientation|uiMode|screenSize|fontScale|smallestScreenSize|screenLayout"
+70-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:18:7-133
+71            android:exported="true"
+71-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:19:7-30
+72            android:label="@string/app_name"
+72-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:20:7-39
+73            android:launchMode="singleTask"
+73-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:21:7-38
+74            android:screenOrientation="portrait"
+74-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:23:7-43
+75            android:windowSoftInputMode="adjustResize" >
+75-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:24:7-49
+76            <intent-filter>
+76-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:25:7-28:23
+77                <action android:name="android.intent.action.MAIN" />
+77-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:26:9-61
+77-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:26:17-58
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:27:9-69
+79-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:27:19-66
+80            </intent-filter>
+81            <intent-filter>
+81-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:29:7-39:23
+82                <action android:name="android.intent.action.VIEW" />
+82-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:30:9-61
+82-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:30:17-58
+83
+84                <category android:name="android.intent.category.DEFAULT" />
+84-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:32:9-68
+84-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:32:19-65
+85                <category android:name="android.intent.category.BROWSABLE" />
+85-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:33:9-70
+85-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:33:19-67
+86
+87                <!-- scheme -->
+88                <data
+88-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:36:9-38:52
+89                    android:host="show-app"
+89-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:37:11-34
+90                    android:scheme="idevel-hansolhomedeco" />
+90-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:38:11-49
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:42:5-48:53
+94            android:name="m.idevel.hansolhomedeco.activity.PushPopupActivity"
+94-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:45:7-72
+95            android:excludeFromRecents="true"
+95-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:43:7-40
+96            android:exported="false"
+96-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:44:7-31
+97            android:screenOrientation="unspecified"
+97-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:46:7-46
+98            android:taskAffinity="com.medialog.umobi.pushPopup"
+98-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:47:7-58
+99            android:theme="@android:style/Theme.Dialog" />
+99-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:48:7-50
+100
+101        <!-- ACTIVITY -->
+102        <activity
+102-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:51:5-54:53
+103            android:name="m.idevel.hansolhomedeco.activity.DevActivity"
+103-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:53:7-66
+104            android:exported="false"
+104-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:52:7-31
+105            android:theme="@style/Base.Theme.AppCompat" />
+105-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:54:7-50
+106        <activity
+106-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:56:5-63:43
+107            android:name="m.idevel.hansolhomedeco.activity.QrcodeScanActivity"
+107-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:59:7-73
+108            android:exported="false"
+108-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:57:7-31
+109            android:hardwareAccelerated="true"
+109-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:58:7-41
+110            android:screenOrientation="fullSensor"
+110-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:60:7-45
+111            android:stateNotNeeded="true"
+111-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:61:7-36
+112            android:windowSoftInputMode="stateAlwaysHidden" />
+112-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:62:7-54
+113
+114        <!-- DEV -->
+115        <activity
+115-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:66:5-71:51
+116            android:name="m.idevel.hansolhomedeco.activity.QrcodeCaptureActivity"
+116-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:68:7-76
+117            android:exported="false"
+117-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:67:7-31
+118            android:screenOrientation="portrait"
+118-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:69:7-43
+119            android:stateNotNeeded="true" />
+119-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:70:7-36
+120
+121        <meta-data
+121-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:74:5-76:27
+122            android:name="iap:api_version"
+122-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:75:7-37
+123            android:value="5" />
+123-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:76:7-24
+124        <meta-data
+124-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:78:5-80:38
+125            android:name="iap:view_option"
+125-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:79:7-37
+126            android:value="popup | full" />
+126-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:80:7-35
+127
+128        <!-- RECEIVER -->
+129        <!-- Network change receiver -->
+130        <meta-data
+130-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:84:5-86:63
+131            android:name="com.google.android.gms.version"
+131-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:85:7-52
+132            android:value="@integer/google_play_services_version" />
+132-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:86:7-60
+133
+134        <!-- DataSaver change receiver -->
+135        <receiver
+135-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:89:5-93:91
+136            android:name="m.idevel.hansolhomedeco.broadcast.DataSaverChangeReceiver"
+136-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:93:7-79
+137            android:enabled="true"
+137-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:90:7-29
+138            android:exported="false"
+138-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:91:7-31
+139            android:label="DataSaverChange" />
+139-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:92:7-38
+140
+141        <!-- Network Change receiver -->
+142        <receiver
+142-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:96:5-102:16
+143            android:name="m.idevel.hansolhomedeco.broadcast.NetworkChangeReceiver"
+143-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:98:7-77
+144            android:exported="false" >
+144-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:97:7-31
+145            <intent-filter>
+145-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:99:7-101:23
+146                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
+146-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:100:9-83
+146-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:100:17-80
+147            </intent-filter>
+148        </receiver>
+149
+150        <service
+150-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:104:5-110:15
+151            android:name="m.idevel.hansolhomedeco.fcm.FcmListenerService"
+151-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:106:7-68
+152            android:exported="false" >
+152-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:105:7-31
+153            <intent-filter>
+153-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:107:7-109:23
+154                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+154-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:9-70
+154-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:17-67
+155            </intent-filter>
+156        </service>
+157
+158        <activity
+158-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:47:9-53:63
+159            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+159-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:48:13-74
+160            android:clearTaskOnLaunch="true"
+160-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:49:13-45
+161            android:screenOrientation="sensorLandscape"
+161-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:50:13-56
+162            android:stateNotNeeded="true"
+162-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:51:13-42
+163            android:theme="@style/zxing_CaptureTheme"
+163-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:52:13-54
+164            android:windowSoftInputMode="stateAlwaysHidden" />
+164-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:53:13-60
+165        <activity
+165-->[com.karumi:dexter:6.2.1] /Users/jjbae/.gradle/caches/transforms-3/5487ce6179f312d135cf2a9e8ab55ac3/transformed/jetified-dexter-6.2.1/AndroidManifest.xml:27:9-29:72
+166            android:name="com.karumi.dexter.DexterActivity"
+166-->[com.karumi:dexter:6.2.1] /Users/jjbae/.gradle/caches/transforms-3/5487ce6179f312d135cf2a9e8ab55ac3/transformed/jetified-dexter-6.2.1/AndroidManifest.xml:28:13-60
+167            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+167-->[com.karumi:dexter:6.2.1] /Users/jjbae/.gradle/caches/transforms-3/5487ce6179f312d135cf2a9e8ab55ac3/transformed/jetified-dexter-6.2.1/AndroidManifest.xml:29:13-69
+168
+169        <receiver
+169-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:31:9-38:20
+170            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+170-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:32:13-78
+171            android:exported="true"
+171-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:33:13-36
+172            android:permission="com.google.android.c2dm.permission.SEND" >
+172-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:34:13-73
+173            <intent-filter>
+173-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:35:13-37:29
+174                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+174-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:36:17-81
+174-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:36:25-78
+175            </intent-filter>
+176        </receiver>
+177        <!--
+178             FirebaseMessagingService performs security checks at runtime,
+179             but set to not exported to explicitly avoid allowing another app to call it.
+180        -->
+181        <service
+181-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:44:9-51:19
+182            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+182-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:45:13-82
+183            android:directBootAware="true"
+183-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:46:13-43
+184            android:exported="false" >
+184-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
+185            <intent-filter android:priority="-500" >
+185-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:107:7-109:23
+186                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+186-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:9-70
+186-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:17-67
+187            </intent-filter>
+188        </service>
+189        <service
+189-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:52:9-58:19
+190            android:name="com.google.firebase.components.ComponentDiscoveryService"
+190-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:53:13-84
+191            android:directBootAware="true"
+191-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+192            android:exported="false" >
+192-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:54:13-37
+193            <meta-data
+193-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:55:13-57:85
+194                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+194-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:56:17-119
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:57:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:27:13-29:85
+197                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar"
+197-->[com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:28:17-130
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:29:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:11:13-13:85
+200                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+200-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:12:17-126
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:13:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:15:13-17:85
+203                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+203-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:16:17-113
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:17:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:18:13-20:85
+206                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+206-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:19:17-115
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:20:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:28:13-30:85
+209                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+209-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:29:17-115
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:30:17-82
+211            <meta-data
+211-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/adceacdc527870b90fb70aa5501b7510/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+212                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+212-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/adceacdc527870b90fb70aa5501b7510/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/adceacdc527870b90fb70aa5501b7510/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-installations:17.0.1] /Users/jjbae/.gradle/caches/transforms-3/74988a1e482621a38c5da89753c4f709/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+215                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+215-->[com.google.firebase:firebase-installations:17.0.1] /Users/jjbae/.gradle/caches/transforms-3/74988a1e482621a38c5da89753c4f709/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-installations:17.0.1] /Users/jjbae/.gradle/caches/transforms-3/74988a1e482621a38c5da89753c4f709/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+217        </service>
+218        <service
+218-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:29:9-35:19
+219            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+219-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:30:13-103
+220            android:exported="false" >
+220-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:31:13-37
+221            <meta-data
+221-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:32:13-34:39
+222                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+222-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:33:17-94
+223                android:value="cct" />
+223-->[com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:34:17-36
+224        </service>
+225        <service
+225-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:26:9-30:19
+226            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+226-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:27:13-117
+227            android:exported="false"
+227-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:28:13-37
+228            android:permission="android.permission.BIND_JOB_SERVICE" >
+228-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:29:13-69
+229        </service>
+230
+231        <receiver
+231-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:32:9-34:40
+232            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+232-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:33:13-132
+233            android:exported="false" />
+233-->[com.google.android.datatransport:transport-runtime:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/f18f57c0be42ab218585144b258a1901/transformed/jetified-transport-runtime-3.1.5/AndroidManifest.xml:34:13-37
+234
+235        <provider
+235-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+236            android:name="com.google.firebase.provider.FirebaseInitProvider"
+236-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+237            android:authorities="m.idevel.hansolhomedeco.firebaseinitprovider"
+237-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+238            android:directBootAware="true"
+238-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+239            android:exported="false"
+239-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+240            android:initOrder="100" />
+240-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+241
+242        <receiver
+242-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+243            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+243-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+245            android:exported="false" >
+245-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+246        </receiver>
+247
+248        <service
+248-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+249            android:name="com.google.android.gms.measurement.AppMeasurementService"
+249-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+250            android:enabled="true"
+250-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+251            android:exported="false" />
+251-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+252        <service
+252-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+253            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+253-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+254            android:enabled="true"
+254-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+256            android:permission="android.permission.BIND_JOB_SERVICE" />
+256-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+257
+258        <activity
+258-->[com.google.android.gms:play-services-base:18.0.1] /Users/jjbae/.gradle/caches/transforms-3/15c9aa7ac282f66b405d12af62f79fa3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+259            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+259-->[com.google.android.gms:play-services-base:18.0.1] /Users/jjbae/.gradle/caches/transforms-3/15c9aa7ac282f66b405d12af62f79fa3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-base:18.0.1] /Users/jjbae/.gradle/caches/transforms-3/15c9aa7ac282f66b405d12af62f79fa3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.google.android.gms:play-services-base:18.0.1] /Users/jjbae/.gradle/caches/transforms-3/15c9aa7ac282f66b405d12af62f79fa3/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+262    </application>
+263
+264</manifest>

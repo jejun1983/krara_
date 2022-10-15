@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "m.idevel.hansolhomedeco",
+  "variantName": "processReleaseResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 3,
+      "versionName": "1.2.0",
+      "outputFile": "./idevel_hansolhomedeco1.2.0_release_221004.apk"
+    }
+  ]
+}

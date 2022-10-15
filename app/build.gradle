@@ -1,0 +1,138 @@
+import java.text.SimpleDateFormat
+
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'kotlin-kapt'
+
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion '30.0.3'
+    defaultConfig {
+        applicationId "m.idevel.hansolhomedeco"
+        minSdkVersion 24
+        targetSdkVersion 31
+
+        versionCode 3
+        versionName "1.2.0"
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+    }
+    signingConfigs {
+        debug {
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+        release {
+            v1SigningEnabled true
+            v2SigningEnabled true
+
+            storeFile file("../keystore/hansolhomedeco")
+            storePassword "hansolhomedeco"
+            keyAlias "jjbae"
+            keyPassword "hansolhomedeco"
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+        release {
+            zipAlignEnabled true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    productFlavors {
+    }
+
+//    externalNativeBuild {
+//      ndkBuild {
+//          path 'src/main/jni/Android.mk'
+//      }
+//    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def df = new SimpleDateFormat("yyMMdd")
+            df.setTimeZone(TimeZone.getDefault())
+            def newName = "idevel_hansolhomedeco${defaultConfig.versionName}_${buildType.name}_${df.format(new Date())}.apk"
+            output.outputFileName = new File("./", newName)
+        }
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    implementation 'com.google.firebase:firebase-appindexing:15.0.0'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.12.0'
+    implementation('com.squareup.okhttp3:okhttp') {
+        version { strictly '3.12.0' }
+    }
+
+    implementation project(path: ':mlAPI')
+
+    // glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+
+    // 필수 권한 팝업
+    implementation 'com.karumi:dexter:6.2.1'
+
+    // 지문인식
+    implementation 'androidx.biometric:biometric:1.1.0'
+
+    // qr
+//    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
+
+    // rx
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.6'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    // Declare the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+// Apply the Crashlytics Gradle plugin
+apply plugin: 'com.google.firebase.crashlytics'
+
+repositories {
+    mavenCentral()
+}
+
+//externalNativeBuild {
+//    ndkBuild {
+//        path 'src/main/jni/Android.mk'
+//    }
+//}

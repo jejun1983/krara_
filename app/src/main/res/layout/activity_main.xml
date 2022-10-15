@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="m.idevel.hansolhomedeco.activity.MainActivity">
+
+  <ProgressBar
+      android:id="@+id/webview_progress"
+      style="?android:attr/progressBarStyleHorizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="-7dp"
+      android:visibility="visible" />
+
+  <RelativeLayout
+      android:id="@+id/webview_sub"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:visibility="gone" />
+
+  <m.idevel.hansolhomedeco.web.BaseWebView
+      android:id="@+id/permission_web"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:focusable="true"
+      android:focusableInTouchMode="true" />
+
+  <m.idevel.hansolhomedeco.web.BaseWebView
+      android:id="@+id/webview_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:focusable="true"
+      android:focusableInTouchMode="true" />
+
+  <Button
+      android:id="@+id/billing_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="50dp"
+      android:text="정기 결제"
+      android:visibility="gone" />
+
+  <Button
+      android:id="@+id/billing_single_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="50dp"
+      android:layout_toLeftOf="@id/billing_test_btn"
+      android:text="단건 결제"
+      android:visibility="gone" />
+
+  <Button
+      android:id="@+id/camera_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="150dp"
+      android:text="카메라"
+      android:visibility="gone" />
+
+  <Button
+      android:id="@+id/gallery_test_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginRight="30dp"
+      android:layout_marginBottom="150dp"
+      android:layout_toLeftOf="@id/camera_test_btn"
+      android:text="갤러리"
+      android:visibility="gone" />
+
+
+  <include
+      android:id="@+id/view_error"
+      layout="@layout/view_error"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone" />
+
+  <include
+      android:id="@+id/view_splash"
+      layout="@layout/view_splash"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" />
+
+  <include
+      android:id="@+id/view_permissioin"
+      layout="@layout/view_permission"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone" />
+
+
+  <RelativeLayout
+      android:id="@+id/speech_layout"
+      android:layout_width="@dimen/px_596"
+      android:layout_height="@dimen/px_490"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="@dimen/px_200"
+      android:background="@color/zxing_custom_viewfinder_mask"
+      android:visibility="gone">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+      <m.idevel.hansolhomedeco.utils.font.TypefaceTextView
+          android:id="@+id/text_speech_message"
+          style="@style/PushPopupBodyText"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:text="'Atomy'" />
+
+      <ImageView
+          android:id="@+id/image_speech_voice"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/text_speech_message"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="10dp"
+          android:scaleType="centerInside"
+          android:src="@drawable/search_voice" />
+
+
+      <RelativeLayout
+          android:id="@+id/speech_btn_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/image_speech_voice"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="10dp"
+          android:visibility="gone">
+
+        <m.idevel.hansolhomedeco.utils.font.TypefaceButton
+            android:id="@+id/btn_speech_retry"
+            style="@style/ErrorButton"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@color/text_grey"
+            android:gravity="center"
+            android:text="재시도" />
+
+        <m.idevel.hansolhomedeco.utils.font.TypefaceButton
+            android:id="@+id/btn_speech_cancel"
+            style="@style/ErrorButton"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btn_speech_retry"
+            android:background="@color/text_grey"
+            android:gravity="center"
+            android:text="취소" />
+      </RelativeLayout>
+
+    </RelativeLayout>
+  </RelativeLayout>
+
+</RelativeLayout>

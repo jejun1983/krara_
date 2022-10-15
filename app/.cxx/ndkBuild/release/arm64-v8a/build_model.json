@@ -1,0 +1,60 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/imsi/Desktop/work/공유/backup/atomy",
+      "sdkFolder": "/Users/imsi/Desktop/work/SDK",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app",
+      "makeFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/src/main/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/.cxx",
+      "cxxFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx",
+      "ndkFolder": "/Users/imsi/Desktop/work/SDK/ndk/23.0.7344513",
+      "ndkVersion": "23.0.7344513-rc4",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a",
+  "jsonFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/cxx/release/arm64-v8a",
+  "objFolder": "/Users/imsi/Desktop/work/공유/backup/atomy/app/build/intermediates/ndkBuild/release/obj/local/arm64-v8a",
+  "buildCommandFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/imsi/Desktop/work/공유/backup/atomy/app/.cxx/ndkBuild/release/arm64-v8a/compile_commands.json"
+}
