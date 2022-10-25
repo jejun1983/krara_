@@ -32,6 +32,8 @@ import androidx.core.app.ActivityOptionsCompat
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.FragmentActivity
 import api.OnResultListener
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
 import com.karumi.dexter.Dexter
 import com.karumi.dexter.MultiplePermissionsReport
 import com.karumi.dexter.PermissionToken
@@ -45,6 +47,7 @@ import m.idevel.hansolhomedeco.broadcast.DataSaverChangeReceiver
 import m.idevel.hansolhomedeco.broadcast.NetworkChangeReceiver
 import m.idevel.hansolhomedeco.dialog.AgentPopupDialog
 import m.idevel.hansolhomedeco.dialog.CustomAlertDialog
+import m.idevel.hansolhomedeco.fcm.PushDataNotiParser
 import m.idevel.hansolhomedeco.fcm.PushPreferences.IS_NOTI
 import m.idevel.hansolhomedeco.fcm.PushPreferences.PUSH_DATA_LINK_TYPE
 import m.idevel.hansolhomedeco.fcm.PushPreferences.PUSH_DATA_LINK_URL
@@ -168,31 +171,15 @@ class MainActivity : FragmentActivity() {
         } else {
             checkSettingInfo()
         }
+
+        checkSchemeIntent(intent)
     }
 
     // push 클릭
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
 
-        val isNoti = intent.getIntExtra(IS_NOTI, -1)
-        DLog.e("bjj onNewIntent :: " + isNoti + " ^ " + mWebview)
-
-        if (isNoti == 1) {
-            checkPushData(intent)
-        } else if (isNoti == 0) {
-            val linkType = intent.getStringExtra(PUSH_DATA_LINK_TYPE)
-            val link = intent.getStringExtra(PUSH_DATA_LINK_URL)
-
-            if (!linkType.isNullOrEmpty()) {
-                if (linkType.contains("_webview")) {
-                    isIntoNotiLandingUrl = true
-
-                    if (mWebview != null) {
-                        mWebview!!.loadUrl(link!!)
-                    }
-                }
-            }
-        }
+        checkSchemeIntent(intent)
     }
 
     override fun onResume() {
@@ -492,30 +479,12 @@ class MainActivity : FragmentActivity() {
     /**
      * Show main view.
      */
-    private fun showMainView(isNotiLandingFinissh: Boolean = false) {
+    private fun showMainView() {
         mHandler.removeMessages(HANDLER_NETWORK_TIMER)
         window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
 
         mSplashView?.visibility = View.GONE
         mErrorView?.visibility = View.GONE
-
-        val isNoti = intent.getIntExtra(IS_NOTI, -1)
-        DLog.e("bjj onNewIntent :: showMainView " + isNotiLandingFinissh + " ^ " + isNoti + " ^ " + mWebview)
-
-        if (!isNotiLandingFinissh && isNoti == 0) {
-            val linkType = intent.getStringExtra(PUSH_DATA_LINK_TYPE)
-            val link = intent.getStringExtra(PUSH_DATA_LINK_URL)
-
-            if (!linkType.isNullOrEmpty()) {
-                if (linkType.contains("_webview")) {
-                    isIntoNotiLandingUrl = true
-
-                    if (mWebview != null) {
-                        mWebview!!.loadUrl(link!!)
-                    }
-                }
-            }
-        }
 
         startTestBtn()
     }
@@ -1573,6 +1542,82 @@ class MainActivity : FragmentActivity() {
         }
 
         mWebview?.sendEvent(IdevelServerScript.SET_DOWNLOAD_FILE, DownloadFileStatusInfo(isSuccess).toJsonString())
+    }
+
+    private fun checkSchemeIntent(intent: Intent) {
+        val isNoti = intent.getIntExtra(IS_NOTI, -1)
+
+        DLog.e("bjj onNewIntent :: checkSchemeIntent init "
+                + isNoti + " ^ "
+//                + intent + " ^ "
+//                + intent.data + " ^ "
+                + intent.extras + " ^ "
+//                + mWebview
+        )
+
+        if (isNoti == 1) {
+            checkPushData(intent)
+        } else if (isNoti == 0) {
+            val linkType = intent.getStringExtra(PUSH_DATA_LINK_TYPE)
+            val link = intent.getStringExtra(PUSH_DATA_LINK_URL)
+
+            DLog.e("bjj onNewIntent :: checkSchemeIntent step_1 "
+                    + mWebview + " ^ " + linkType + " ^ " + link)
+
+            if (!linkType.isNullOrEmpty()) {
+                if (linkType.contains("_webview")) {
+                    isIntoNotiLandingUrl = true
+
+                    if (mWebview != null) {
+                        if (!link.isNullOrEmpty()) {
+                            mHandler.postDelayed({
+                                DLog.e("bjj onNewIntent :: checkSchemeIntent step_2 "
+                                        + mWebview + " ^ " + linkType + " ^ " + link)
+
+                                mWebview!!.loadUrl(link)
+                            }, 5000L)
+                        }
+                    }
+                }
+            }
+        } else {
+            if (intent.extras != null) {
+                val myExtras = intent.extras
+                val myNotiStr = myExtras?.getString("noti")
+
+                val pushDataNotiParser: PushDataNotiParser =
+                        gson().fromJson(myNotiStr, PushDataNotiParser::class.java)
+
+                val link: String? = pushDataNotiParser.noti_link
+                val linkType: String? = pushDataNotiParser.noti_target
+
+                DLog.e("bjj onNewIntent :: checkSchemeIntent step_3 "
+                        + mWebview + " ^ " + linkType + " ^ " + link)
+
+                if (!linkType.isNullOrEmpty()) {
+                    if (linkType.contains("_webview")) {
+                        isIntoNotiLandingUrl = true
+
+                        if (mWebview != null) {
+                            if (!link.isNullOrEmpty()) {
+                                Toast.makeText(this@MainActivity, "화면 이동중입니다.", Toast.LENGTH_SHORT).show()
+
+                                mHandler.postDelayed({
+                                    DLog.e("bjj onNewIntent :: checkSchemeIntent step_4 "
+                                            + mWebview + " ^ " + linkType + " ^ " + link)
+
+                                    mWebview!!.loadUrl(link)
+                                }, 5000L)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun gson(): Gson {
+        return GsonBuilder().disableHtmlEscaping().setPrettyPrinting().create()
     }
 
     private fun startTestBtn() {
