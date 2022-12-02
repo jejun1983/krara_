@@ -86,4 +86,14 @@ class BaseWebView @JvmOverloads constructor(context: Context, attrs: AttributeSe
             }
         }
     }
+
+    fun showZoomBtn(isShow: Boolean) {
+        val webSettings = settings
+
+        if (isShow) {
+            //        webSettings.setSupportZoom(true)
+            webSettings.builtInZoomControls = true
+//        webSettings.displayZoomControls = true
+        }
+    }
 }

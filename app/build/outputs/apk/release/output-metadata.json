@@ -10,9 +10,9 @@
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 3,
-      "versionName": "1.2.0",
-      "outputFile": "./idevel_hansolhomedeco1.2.0_release_221004.apk"
+      "versionCode": 5,
+      "versionName": "1.4.0",
+      "outputFile": "./idevel_hansolhomedeco1.4.0_release_221202.apk"
     }
   ]
 }

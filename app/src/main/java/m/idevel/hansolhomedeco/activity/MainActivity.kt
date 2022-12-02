@@ -236,6 +236,7 @@ class MainActivity : FragmentActivity() {
         mWebview?.setBackgroundColor(Color.WHITE)
         mWebview?.setJSInterface(iWebBridgeApi)
         mWebview?.loadUrl(UrlData.getMainUrl(this@MainActivity)!!)
+        mWebview?.showZoomBtn(true)
 
         mWebViewClient = object : m.idevel.hansolhomedeco.web.MyWebViewClient(this) {
             override fun onPageStarted(view: WebView, url: String, favicon: Bitmap?) {

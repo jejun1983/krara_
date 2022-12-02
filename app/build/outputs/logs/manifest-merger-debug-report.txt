@@ -17,7 +17,7 @@ MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/hansolhomedeco/mlAPI/build/inte
 MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:2:1-21:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/cf25da098d891b348d531d4a188fb9c4/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/jjbae/.gradle/caches/transforms-3/a501d6103f5f34904270cf578b58844f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:15:1-34:12
@@ -62,7 +62,7 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jjbae
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/4ca4c71c8d72c23171533f4dd6ad1772/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/a630e35a55da51f2a52604b569bbd5bd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee58a64cea2b2d4dc5cf37e4806b5745/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/cd2792a1ed06cd5a3691043ad78cef03/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/57e318c1e625645faf2ec468c12a7910/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jjbae/.gradle/caches/transforms-3/02d7071cf1e21e2bacc8e2077651da23/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
@@ -117,8 +117,8 @@ MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gr
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/cf25da098d891b348d531d4a188fb9c4/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/cf25da098d891b348d531d4a188fb9c4/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
@@ -159,8 +159,8 @@ MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jjbae/
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jjbae/.gradle/caches/transforms-3/607a258681d626ebe80096cebb1b2f2c/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee58a64cea2b2d4dc5cf37e4806b5745/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee58a64cea2b2d4dc5cf37e4806b5745/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/d446525ecd72c3bd3e0448503aa110a4/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/d446525ecd72c3bd3e0448503aa110a4/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
@@ -461,8 +461,8 @@ MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gr
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/cf25da098d891b348d531d4a188fb9c4/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/cf25da098d891b348d531d4a188fb9c4/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/jjbae/.gradle/caches/transforms-3/a501d6103f5f34904270cf578b58844f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/jjbae/.gradle/caches/transforms-3/a501d6103f5f34904270cf578b58844f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:6:5-8:41
@@ -551,8 +551,8 @@ MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/a630e35a55da51f2a52604b569bbd5bd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/a630e35a55da51f2a52604b569bbd5bd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee58a64cea2b2d4dc5cf37e4806b5745/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee58a64cea2b2d4dc5cf37e4806b5745/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/cd2792a1ed06cd5a3691043ad78cef03/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/cd2792a1ed06cd5a3691043ad78cef03/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/57e318c1e625645faf2ec468c12a7910/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
