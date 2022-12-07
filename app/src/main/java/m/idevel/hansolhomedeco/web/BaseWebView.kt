@@ -26,8 +26,11 @@ class BaseWebView @JvmOverloads constructor(context: Context, attrs: AttributeSe
         webSettings.setSupportMultipleWindows(true)
 
         webSettings.javaScriptEnabled = true
+
+        // zoom 초기화 
         webSettings.setSupportZoom(true)
         webSettings.builtInZoomControls = false
+
         webSettings.useWideViewPort = true
         webSettings.domStorageEnabled = true
         webSettings.cacheMode = WebSettings.LOAD_DEFAULT

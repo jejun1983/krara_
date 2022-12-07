@@ -1,4 +1,4 @@
-#Fri Dec 02 20:31:47 KST 2022
+#Wed Dec 07 22:49:53 KST 2022
 base.0=/Users/jjbae/Desktop/backup/hansolhomedeco/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

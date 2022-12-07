@@ -1584,7 +1584,7 @@ class MainActivity : FragmentActivity() {
         } else {
             if (intent.extras != null) {
                 val myExtras = intent.extras
-                val myNotiStr = myExtras?.getString("noti")
+                val myNotiStr = myExtras?.getString("noti") ?: return
 
                 val pushDataNotiParser: PushDataNotiParser =
                         gson().fromJson(myNotiStr, PushDataNotiParser::class.java)

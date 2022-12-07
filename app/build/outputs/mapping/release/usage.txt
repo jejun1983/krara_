@@ -23511,9 +23511,9 @@ androidx.core.view.ViewCompat$4:
     synthetic bridge void frameworkSet(android.view.View,java.lang.Object)
     synthetic bridge boolean shouldUpdate(java.lang.Object,java.lang.Object)
 io.reactivex.internal.operators.flowable.FlowableBufferBoundarySupplier
-com.google.android.material.chip.ChipGroup$CheckedStateTracker
 com.google.android.material.internal.ForegroundLinearLayout:
     public void <init>(android.content.Context)
+com.google.android.material.chip.ChipGroup$CheckedStateTracker
 androidx.constraintlayout.core.state.Transition
 io.reactivex.internal.operators.observable.ObservableDebounceTimed
 androidx.transition.ViewOverlayApi14:
