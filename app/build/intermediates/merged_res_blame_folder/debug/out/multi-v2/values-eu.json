@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jjbae/Desktop/backup/hansolhomedeco/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
+            "outputFile": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "/Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/res/values-eu/values-eu.xml",

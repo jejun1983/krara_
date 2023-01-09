@@ -2134,7 +2134,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="app_name">"라솔라"</string>
+    <string name="app_name">"krara"</string>
     <string name="app_version" translatable="false">null</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
@@ -2163,7 +2163,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="confirm_device_credential_password">Use password</string>
     <string name="default_error_msg">Unknown error</string>
-    <string name="default_web_client_id" translatable="false">324457568505-m7f2dl369eqdoqov8ddluq13lqfshdrf.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">246828850124-78bqffd0adhflquqvgji1qsl1e15tctc.apps.googleusercontent.com</string>
     <string name="define_zxingandroidembedded" translatable="false"/>
     <string name="desc_setting_auto_purchased_en">You purchased the subscription.</string>
     <string name="desc_setting_auto_purchased_ko">월정액 상품에 가입되어 있습니다.</string>
@@ -2178,14 +2178,14 @@
     <string name="fingerprint_error_no_fingerprints">No fingerprints enrolled.</string>
     <string name="fingerprint_error_user_canceled">Fingerprint operation canceled by user.</string>
     <string name="fingerprint_not_recognized">Not recognized</string>
-    <string name="gcm_defaultSenderId" translatable="false">324457568505</string>
+    <string name="gcm_defaultSenderId" translatable="false">246828850124</string>
     <string name="generic_error_no_device_credential">No PIN, pattern, or password set.</string>
     <string name="generic_error_no_keyguard">This device does not support PIN, pattern, or password.</string>
     <string name="generic_error_user_canceled">Authentication canceled by user.</string>
-    <string name="google_api_key" translatable="false">AIzaSyAosJmYoEyv4CHzUg3L31DAvcuDAE6khQc</string>
-    <string name="google_app_id" translatable="false">1:324457568505:android:765520b9a33a5291b8ea28</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAosJmYoEyv4CHzUg3L31DAvcuDAE6khQc</string>
-    <string name="google_storage_bucket" translatable="false">hansolhomedeco-31ae1.appspot.com</string>
+    <string name="google_api_key" translatable="false">AIzaSyAqzmJ7FUff_2GrnHZC5lRWFjQBstIH3j4</string>
+    <string name="google_app_id" translatable="false">1:246828850124:android:827ec17923e0c6e5c61b69</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAqzmJ7FUff_2GrnHZC5lRWFjQBstIH3j4</string>
+    <string name="google_storage_bucket" translatable="false">krara-93c36.appspot.com</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
     <string name="infobip_application_code">87f694011e68df6900b8b71b0eb109a6-d24d7d2e-869b-4ddd-984f-0b3b6db5e76a</string>
     <string name="library_zxingandroidembedded_author" translatable="false">JourneyApps</string>
@@ -2231,7 +2231,7 @@
     <string name="permissionDeny_title">"알림"</string>
     <string name="permission_btn_cancel">"종료"</string>
     <string name="permission_btn_ok">"동의"</string>
-    <string name="permission_view_title">"동명엔터프라이즈 APP 사용을 위해\n권한 허용이 필요합니다."</string>
+    <string name="permission_view_title">"krara 앱이 사용을 위해\n권한 허용이 필요합니다."</string>
     <string name="popup_app_finish_cancel">"아니오"</string>
     <string name="popup_app_finish_message">"종료하시겠습니까?"</string>
     <string name="popup_app_finish_ok">"예"</string>
@@ -2241,17 +2241,17 @@
     <string name="popup_btn_now">"업데이트"</string>
     <string name="popup_btn_ok">"확인"</string>
     <string name="popup_btn_ok_dta_save">"설정"</string>
-    <string name="popup_msg_data_save">"동명엔터프라이즈 이용은\n\'설정 > 데이터 세이버 미적용 앱\'\n전환 후 사용 가능합니다."</string>
+    <string name="popup_msg_data_save">"krara 앱이 이용은\n\'설정 > 데이터 세이버 미적용 앱\'\n전환 후 사용 가능합니다."</string>
     <string name="popup_msg_error_version">"서버와 통신이 원활하지 않습니다.\n잠시 후 다시 이용해 주시기 바랍니다."</string>
     <string name="popup_msg_network_error">"죄송합니다.\n현재 네트워크에 접속되지 않았습니다.\n무선인터넷 연결이 가능하게 휴대폰 설정을 확인하시고 다시 접속하여 주시기 바랍니다.\n감사합니다."</string>
-    <string name="popup_msg_other_version">"동명엔터프라이즈 앱이 업데이트되었습니다.\n사용을 위해 반드시\n업데이트 후 사용해 주세요."</string>
-    <string name="popup_msg_other_version2">"동명엔터프라이즈 앱이 업데이트되었습니다.\n보다 편리한 사용을 위해\n업데이트 후 사용해 주세요."</string>
+    <string name="popup_msg_other_version">"krara 앱이 업데이트되었습니다.\n사용을 위해 반드시\n업데이트 후 사용해 주세요."</string>
+    <string name="popup_msg_other_version2">"krara 앱이 업데이트되었습니다.\n보다 편리한 사용을 위해\n업데이트 후 사용해 주세요."</string>
     <string name="popup_msg_server_error">"죄송합니다.\n현재 서버 상태가 원활하지 못합니다.\n잠시 후 다시 접속하여 주시기 바랍니다.\n감사합니다."</string>
     <string name="popup_title_data_save">"데이터 세이버 해제 알림"</string>
     <string name="popup_title_network_error">"네트워크 알림"</string>
     <string name="popup_title_other_version">"업데이트 알림"</string>
     <string name="popup_title_server_error">"서버 알림"</string>
-    <string name="project_id" translatable="false">hansolhomedeco-31ae1</string>
+    <string name="project_id" translatable="false">krara-93c36</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="toast_backkey">"뒤로 버튼을 한 번 더 누르시면 종료됩니다."</string>

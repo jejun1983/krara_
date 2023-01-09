@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jjbae/Desktop/backup/hansolhomedeco/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
+            "outputFile": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml",
             "map": [
                 {
                     "source": "/Users/jjbae/.gradle/caches/transforms-3/15c9aa7ac282f66b405d12af62f79fa3/transformed/jetified-play-services-base-18.0.1/res/values-en-rGB/values.xml",

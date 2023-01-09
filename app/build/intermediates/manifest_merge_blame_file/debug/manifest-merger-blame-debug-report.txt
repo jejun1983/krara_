@@ -1,57 +1,57 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="m.idevel.hansolhomedeco"
-4    android:versionCode="6"
-5    android:versionName="1.5.0" >
+3    package="com.idevel.krara"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+8-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+9-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:115:3-65
-11-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:115:20-62
+11-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:115:3-65
+11-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:115:20-62
 12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-12-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:116:3-79
-12-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:116:20-76
+12-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:116:3-79
+12-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:116:20-76
 13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:117:3-77
-13-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:117:20-74
+13-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:117:3-77
+13-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:117:20-74
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:118:3-66
-14-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:118:20-63
+14-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:118:3-66
+14-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:118:20-63
 15    <uses-permission android:name="android.permission.VIBRATE" />
-15-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:119:3-64
-15-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:119:20-61
+15-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:119:3-64
+15-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:119:20-61
 16
 17    <!-- 필수권한 -->
 18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-18-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:122:3-73
-18-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:122:20-70
+18-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:122:3-73
+18-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:122:20-70
 19    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-19-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:123:3-69
-19-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:123:20-66
+19-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:123:3-69
+19-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:123:20-66
 20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 현재 기기 위치 -->
-20-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:125:3-77
-20-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:125:20-74
+20-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:125:3-77
+20-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:125:20-74
 21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-21-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:126:3-79
-21-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:126:20-76
+21-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:126:3-79
+21-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:126:20-76
 22    <uses-permission android:name="android.permission.CAMERA" /> <!-- 사진 찍기, 비디오 녹화 -->
-22-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:128:3-63
-22-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:128:20-60
+22-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:128:3-63
+22-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:128:20-60
 23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 사진, 미디어 파일 접근 -->
-23-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:129:3-78
-23-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:129:20-75
+23-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:129:3-78
+23-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:129:20-75
 24
 25    <uses-permission
-25-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:131:3-133:64
+25-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:131:3-133:64
 26        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-26-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:133:5-61
+26-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:133:5-61
 27        android:maxSdkVersion="29" />
-27-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:132:5-31
+27-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:132:5-31
 28    <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
 29    <uses-feature
 29-->[com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
@@ -108,188 +108,188 @@
 53-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/488b0dfc3ed0cc8ffdc7b244e1f4507d/transformed/jetified-play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
 54
 55    <application
-55-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:6:3-113:17
-56        android:name="m.idevel.hansolhomedeco.MyApplication"
-56-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:12:5-57
+55-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:6:3-113:17
+56        android:name="com.idevel.krara.MyApplication"
+56-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:12:5-50
 57        android:allowBackup="false"
-57-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:7:5-32
+57-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:7:5-32
 58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 58-->[androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 59        android:debuggable="true"
 60        android:extractNativeLibs="false"
 61        android:hardwareAccelerated="true"
-61-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:8:5-39
-62        android:icon="@mipmap/lasola"
-62-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:9:5-34
+61-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:8:5-39
+62        android:icon="@mipmap/ic_launcher"
+62-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:9:5-39
 63        android:label="@string/app_name"
-63-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:10:5-37
+63-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:10:5-37
 64        android:largeHeap="true"
-64-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:11:5-29
+64-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:11:5-29
 65        android:requestLegacyExternalStorage="true"
-65-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:13:5-48
+65-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:13:5-48
 66        android:theme="@style/MyAppTheme"
-66-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:14:5-38
+66-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:14:5-38
 67        android:usesCleartextTraffic="true" >
-67-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:15:5-40
+67-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:15:5-40
 68        <activity
-68-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:17:5-40:16
-69            android:name="m.idevel.hansolhomedeco.activity.MainActivity"
-69-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:22:7-67
+68-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:17:5-40:16
+69            android:name="com.idevel.krara.activity.MainActivity"
+69-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:22:7-60
 70            android:configChanges="locale|keyboard|keyboardHidden|orientation|uiMode|screenSize|fontScale|smallestScreenSize|screenLayout"
-70-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:18:7-133
+70-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:18:7-133
 71            android:exported="true"
-71-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:19:7-30
+71-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:19:7-30
 72            android:label="@string/app_name"
-72-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:20:7-39
+72-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:20:7-39
 73            android:launchMode="singleTask"
-73-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:21:7-38
+73-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:21:7-38
 74            android:screenOrientation="portrait"
-74-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:23:7-43
+74-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:23:7-43
 75            android:windowSoftInputMode="adjustResize" >
-75-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:24:7-49
+75-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:24:7-49
 76            <intent-filter>
-76-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:25:7-28:23
+76-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:25:7-28:23
 77                <action android:name="android.intent.action.MAIN" />
-77-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:26:9-61
-77-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:26:17-58
+77-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:26:9-61
+77-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:26:17-58
 78
 79                <category android:name="android.intent.category.LAUNCHER" />
-79-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:27:9-69
-79-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:27:19-66
+79-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:27:9-69
+79-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:27:19-66
 80            </intent-filter>
 81            <intent-filter>
-81-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:29:7-39:23
+81-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:29:7-39:23
 82                <action android:name="android.intent.action.VIEW" />
-82-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:30:9-61
-82-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:30:17-58
+82-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:30:9-61
+82-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:30:17-58
 83
 84                <category android:name="android.intent.category.DEFAULT" />
-84-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:32:9-68
-84-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:32:19-65
+84-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:32:9-68
+84-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:32:19-65
 85                <category android:name="android.intent.category.BROWSABLE" />
-85-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:33:9-70
-85-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:33:19-67
+85-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:33:9-70
+85-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:33:19-67
 86
 87                <!-- scheme -->
 88                <data
-88-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:36:9-38:52
+88-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:36:9-38:43
 89                    android:host="show-app"
-89-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:37:11-34
-90                    android:scheme="idevel-hansolhomedeco" />
-90-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:38:11-49
+89-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:37:11-34
+90                    android:scheme="idevel-krara" />
+90-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:38:11-40
 91            </intent-filter>
 92        </activity>
 93        <activity
-93-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:42:5-48:53
-94            android:name="m.idevel.hansolhomedeco.activity.PushPopupActivity"
-94-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:45:7-72
+93-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:42:5-48:53
+94            android:name="com.idevel.krara.activity.PushPopupActivity"
+94-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:45:7-65
 95            android:excludeFromRecents="true"
-95-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:43:7-40
+95-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:43:7-40
 96            android:exported="false"
-96-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:44:7-31
+96-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:44:7-31
 97            android:screenOrientation="unspecified"
-97-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:46:7-46
+97-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:46:7-46
 98            android:taskAffinity="com.medialog.umobi.pushPopup"
-98-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:47:7-58
+98-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:47:7-58
 99            android:theme="@android:style/Theme.Dialog" />
-99-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:48:7-50
+99-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:48:7-50
 100
 101        <!-- ACTIVITY -->
 102        <activity
-102-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:51:5-54:53
-103            android:name="m.idevel.hansolhomedeco.activity.DevActivity"
-103-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:53:7-66
+102-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:51:5-54:53
+103            android:name="com.idevel.krara.activity.DevActivity"
+103-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:53:7-59
 104            android:exported="false"
-104-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:52:7-31
+104-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:52:7-31
 105            android:theme="@style/Base.Theme.AppCompat" />
-105-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:54:7-50
+105-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:54:7-50
 106        <activity
-106-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:56:5-63:43
-107            android:name="m.idevel.hansolhomedeco.activity.QrcodeScanActivity"
-107-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:59:7-73
+106-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:56:5-63:43
+107            android:name="com.idevel.krara.activity.QrcodeScanActivity"
+107-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:59:7-66
 108            android:exported="false"
-108-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:57:7-31
+108-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:57:7-31
 109            android:hardwareAccelerated="true"
-109-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:58:7-41
+109-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:58:7-41
 110            android:screenOrientation="fullSensor"
-110-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:60:7-45
+110-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:60:7-45
 111            android:stateNotNeeded="true"
-111-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:61:7-36
+111-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:61:7-36
 112            android:windowSoftInputMode="stateAlwaysHidden" />
-112-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:62:7-54
+112-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:62:7-54
 113
 114        <!-- DEV -->
 115        <activity
-115-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:66:5-71:51
-116            android:name="m.idevel.hansolhomedeco.activity.QrcodeCaptureActivity"
-116-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:68:7-76
+115-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:66:5-71:51
+116            android:name="com.idevel.krara.activity.QrcodeCaptureActivity"
+116-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:68:7-69
 117            android:exported="false"
-117-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:67:7-31
+117-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:67:7-31
 118            android:screenOrientation="portrait"
-118-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:69:7-43
+118-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:69:7-43
 119            android:stateNotNeeded="true" />
-119-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:70:7-36
+119-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:70:7-36
 120
 121        <meta-data
-121-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:74:5-76:27
+121-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:74:5-76:27
 122            android:name="iap:api_version"
-122-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:75:7-37
+122-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:75:7-37
 123            android:value="5" />
-123-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:76:7-24
+123-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:76:7-24
 124        <meta-data
-124-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:78:5-80:38
+124-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:78:5-80:38
 125            android:name="iap:view_option"
-125-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:79:7-37
+125-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:79:7-37
 126            android:value="popup | full" />
-126-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:80:7-35
+126-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:80:7-35
 127
 128        <!-- RECEIVER -->
 129        <!-- Network change receiver -->
 130        <meta-data
-130-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:84:5-86:63
+130-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:84:5-86:63
 131            android:name="com.google.android.gms.version"
-131-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:85:7-52
+131-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:85:7-52
 132            android:value="@integer/google_play_services_version" />
-132-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:86:7-60
+132-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:86:7-60
 133
 134        <!-- DataSaver change receiver -->
 135        <receiver
-135-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:89:5-93:91
-136            android:name="m.idevel.hansolhomedeco.broadcast.DataSaverChangeReceiver"
-136-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:93:7-79
+135-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:89:5-93:84
+136            android:name="com.idevel.krara.broadcast.DataSaverChangeReceiver"
+136-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:93:7-72
 137            android:enabled="true"
-137-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:90:7-29
+137-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:90:7-29
 138            android:exported="false"
-138-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:91:7-31
+138-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:91:7-31
 139            android:label="DataSaverChange" />
-139-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:92:7-38
+139-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:92:7-38
 140
 141        <!-- Network Change receiver -->
 142        <receiver
-142-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:96:5-102:16
-143            android:name="m.idevel.hansolhomedeco.broadcast.NetworkChangeReceiver"
-143-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:98:7-77
+142-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:96:5-102:16
+143            android:name="com.idevel.krara.broadcast.NetworkChangeReceiver"
+143-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:98:7-70
 144            android:exported="false" >
-144-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:97:7-31
+144-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:97:7-31
 145            <intent-filter>
-145-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:99:7-101:23
+145-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:99:7-101:23
 146                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED" />
-146-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:100:9-83
-146-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:100:17-80
+146-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:100:9-83
+146-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:100:17-80
 147            </intent-filter>
 148        </receiver>
 149
 150        <service
-150-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:104:5-110:15
-151            android:name="m.idevel.hansolhomedeco.fcm.FcmListenerService"
-151-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:106:7-68
+150-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:104:5-110:15
+151            android:name="com.idevel.krara.fcm.FcmListenerService"
+151-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:106:7-61
 152            android:exported="false" >
-152-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:105:7-31
+152-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:105:7-31
 153            <intent-filter>
-153-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:107:7-109:23
+153-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:107:7-109:23
 154                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-154-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:9-70
-154-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:17-67
+154-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:108:9-70
+154-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:108:17-67
 155            </intent-filter>
 156        </service>
 157
@@ -342,10 +342,10 @@
 184            android:exported="false" >
 184-->[com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:47:13-37
 185            <intent-filter android:priority="-500" >
-185-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:107:7-109:23
+185-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:107:7-109:23
 186                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-186-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:9-70
-186-->/Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:17-67
+186-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:108:9-70
+186-->/Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:108:17-67
 187            </intent-filter>
 188        </service>
 189        <service
@@ -439,7 +439,7 @@
 235-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
 236            android:name="com.google.firebase.provider.FirebaseInitProvider"
 236-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:27:13-77
-237            android:authorities="m.idevel.hansolhomedeco.firebaseinitprovider"
+237            android:authorities="com.idevel.krara.firebaseinitprovider"
 237-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:28:13-72
 238            android:directBootAware="true"
 238-->[com.google.firebase:firebase-common:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/d644638fe4d8739bb167d624bfe17eef/transformed/jetified-firebase-common-20.1.1/AndroidManifest.xml:29:13-43

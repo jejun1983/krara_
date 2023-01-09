@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "324457568505",
-    "project_id": "hansolhomedeco-31ae1",
-    "storage_bucket": "hansolhomedeco-31ae1.appspot.com"
+    "project_number": "246828850124",
+    "project_id": "krara-93c36",
+    "storage_bucket": "krara-93c36.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:324457568505:android:765520b9a33a5291b8ea28",
+        "mobilesdk_app_id": "1:246828850124:android:827ec17923e0c6e5c61b69",
         "android_client_info": {
-          "package_name": "m.idevel.hansolhomedeco"
+          "package_name": "com.idevel.krara"
         }
       },
       "oauth_client": [
         {
-          "client_id": "324457568505-m7f2dl369eqdoqov8ddluq13lqfshdrf.apps.googleusercontent.com",
+          "client_id": "246828850124-78bqffd0adhflquqvgji1qsl1e15tctc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAosJmYoEyv4CHzUg3L31DAvcuDAE6khQc"
+          "current_key": "AIzaSyAqzmJ7FUff_2GrnHZC5lRWFjQBstIH3j4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "324457568505-m7f2dl369eqdoqov8ddluq13lqfshdrf.apps.googleusercontent.com",
+              "client_id": "246828850124-78bqffd0adhflquqvgji1qsl1e15tctc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

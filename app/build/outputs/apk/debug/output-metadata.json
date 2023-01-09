@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "m.idevel.hansolhomedeco",
+  "applicationId": "com.idevel.krara",
   "variantName": "processDebugResources",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
-      "versionCode": 6,
-      "versionName": "1.5.0",
-      "outputFile": "./idevel_hansolhomedeco1.5.0_debug_221207.apk"
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "outputFile": "./idevel_krara_1.0.0_debug_230108.apk"
     }
   ]
 }

@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "m.idevel.hansolhomedeco",
+  "applicationId": "com.idevel.krara",
   "variantName": "debug",
   "elements": []
 }

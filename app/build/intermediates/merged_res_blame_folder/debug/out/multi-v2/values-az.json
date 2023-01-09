@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jjbae/Desktop/backup/hansolhomedeco/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
+            "outputFile": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
             "map": [
                 {
                     "source": "/Users/jjbae/.gradle/caches/transforms-3/403291ba8ac7d07b4ff8ea09cbc14ef8/transformed/appcompat-1.2.0/res/values-az/values-az.xml",

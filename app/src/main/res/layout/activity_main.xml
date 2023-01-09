@@ -4,7 +4,7 @@
     android:id="@+id/mainview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="m.idevel.hansolhomedeco.activity.MainActivity">
+    tools:context="com.idevel.krara.activity.MainActivity">
 
   <ProgressBar
       android:id="@+id/webview_progress"
@@ -21,14 +21,14 @@
       android:orientation="vertical"
       android:visibility="gone" />
 
-  <m.idevel.hansolhomedeco.web.BaseWebView
+  <com.idevel.krara.web.BaseWebView
       android:id="@+id/permission_web"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:focusable="true"
       android:focusableInTouchMode="true" />
 
-  <m.idevel.hansolhomedeco.web.BaseWebView
+  <com.idevel.krara.web.BaseWebView
       android:id="@+id/webview_main"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
@@ -116,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
-      <m.idevel.hansolhomedeco.utils.font.TypefaceTextView
+      <com.idevel.krara.utils.font.TypefaceTextView
           android:id="@+id/text_speech_message"
           style="@style/PushPopupBodyText"
           android:layout_width="wrap_content"
@@ -144,7 +144,7 @@
           android:layout_marginTop="10dp"
           android:visibility="gone">
 
-        <m.idevel.hansolhomedeco.utils.font.TypefaceButton
+        <com.idevel.krara.utils.font.TypefaceButton
             android:id="@+id/btn_speech_retry"
             style="@style/ErrorButton"
             android:layout_width="60dp"
@@ -153,7 +153,7 @@
             android:gravity="center"
             android:text="재시도" />
 
-        <m.idevel.hansolhomedeco.utils.font.TypefaceButton
+        <com.idevel.krara.utils.font.TypefaceButton
             android:id="@+id/btn_speech_cancel"
             style="@style/ErrorButton"
             android:layout_width="60dp"

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jjbae/Desktop/backup/hansolhomedeco/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/jjbae/.gradle/caches/transforms-3/6bbb623127d0648084e71ee2d0c54266/transformed/material-1.0.0/res/values-land/values-land.xml",

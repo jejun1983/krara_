@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jjbae/Desktop/backup/hansolhomedeco/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
+            "outputFile": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "/Users/jjbae/.gradle/caches/transforms-3/02f4aea923f2629b9f0388ca6279528f/transformed/biometric-1.1.0/res/values-lv/values-lv.xml",

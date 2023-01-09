@@ -78,7 +78,7 @@ public static final void e(...);
 }
 
 
--keep class m.idevel.hansolhomedeco.** { *;}
+-keep class com.idevel.krara.** { *;}
 
 # one store
 -keep class com.onestore.iap.** { *;}

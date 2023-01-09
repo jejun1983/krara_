@@ -1,4 +1,4 @@
-m.idevel.hansolhomedeco
+com.idevel.krara
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -4296,6 +4296,7 @@ drawable popup_btn_normal
 drawable popup_btn_press
 drawable popup_btn_right_normal
 drawable popup_btn_right_press
+drawable s_logo
 drawable search_voice
 drawable seekbar_bg
 drawable selector_btn_permission
@@ -4303,12 +4304,8 @@ drawable selector_popup_btn
 drawable selector_popup_btn_left
 drawable selector_popup_btn_right
 drawable small_logo
-drawable splash_01
-drawable splash_02
 drawable splash_03
 drawable splash_bg_shape
-drawable splash_logo
-drawable splashbg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable top_round_rectangle
@@ -4875,7 +4872,9 @@ layout view_splash
 layout widget_popup_button
 layout zxing_barcode_scanner
 layout zxing_capture
-mipmap lasola
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 raw keep
 raw zxing_beep
 string abc_action_bar_home_description

@@ -11,12 +11,12 @@ android {
     compileSdkVersion 31
     buildToolsVersion '30.0.3'
     defaultConfig {
-        applicationId "m.idevel.hansolhomedeco"
+        applicationId "com.idevel.krara"
         minSdkVersion 24
         targetSdkVersion 31
 
-        versionCode 6
-        versionName "1.5.0"
+        versionCode 1
+        versionName "1.0.0"
 
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_8
@@ -63,7 +63,7 @@ android {
         variant.outputs.each { output ->
             def df = new SimpleDateFormat("yyMMdd")
             df.setTimeZone(TimeZone.getDefault())
-            def newName = "idevel_hansolhomedeco${defaultConfig.versionName}_${buildType.name}_${df.format(new Date())}.apk"
+            def newName = "idevel_krara_${defaultConfig.versionName}_${buildType.name}_${df.format(new Date())}.apk"
             output.outputFileName = new File("./", newName)
         }
     }

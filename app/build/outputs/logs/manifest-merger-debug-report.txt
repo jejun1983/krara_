@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:17:1-56:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/4e9a6d0c62aae58aab28b82be9c49e43/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jjbae/.gradle/caches/transforms-3/c6c14cf9b6dca4b467f1f3a35b6a5865/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -13,11 +13,11 @@ MERGED from [com.google.android.material:material:1.0.0] /Users/jjbae/.gradle/ca
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jjbae/.gradle/caches/transforms-3/403291ba8ac7d07b4ff8ea09cbc14ef8/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:17:1-61:12
 MERGED from [com.google.firebase:firebase-appindexing:20.0.0] /Users/jjbae/.gradle/caches/transforms-3/38d8b77f081eec7bafff8184aec9be36/transformed/jetified-firebase-appindexing-20.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/hansolhomedeco/mlAPI/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/krara/mlAPI/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:15:1-33:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:2:1-21:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/dc234944a8e0fe76f4dc2493fa8a5a56/transformed/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/jjbae/.gradle/caches/transforms-3/a501d6103f5f34904270cf578b58844f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:15:1-34:12
@@ -62,7 +62,7 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jjbae
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/4ca4c71c8d72c23171533f4dd6ad1772/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/a630e35a55da51f2a52604b569bbd5bd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/97b76fc3bc08382366adbc90299f8332/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/cd2792a1ed06cd5a3691043ad78cef03/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/57e318c1e625645faf2ec468c12a7910/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/jjbae/.gradle/caches/transforms-3/02d7071cf1e21e2bacc8e2077651da23/transformed/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
@@ -78,27 +78,27 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jjbae/.gradle/caches/t
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jjbae/.gradle/caches/transforms-3/074d6739f8404fdb671707c73416ae3b/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/2b4a784f35674ee89185b8883d1d43b9/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jjbae/.gradle/caches/transforms-3/290ab4bcf6bd43f642895e725837152a/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
 	package
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:4:3-36
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:4:3-29
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:3:3-49
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:3:3-49
 	android:versionCode
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:1-134:12
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:1-134:12
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:6:3-113:17
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:6:3-113:17
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:46:5-54:19
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:46:5-54:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/jjbae/.gradle/caches/transforms-3/c6c14cf9b6dca4b467f1f3a35b6a5865/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -117,8 +117,8 @@ MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gr
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:11:5-19:19
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/dc234944a8e0fe76f4dc2493fa8a5a56/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/dc234944a8e0fe76f4dc2493fa8a5a56/transformed/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.4] /Users/jjbae/.gradle/caches/transforms-3/7345e898bf247bd67a9ac9b2f44806f0/transformed/jetified-firebase-datatransport-18.1.4/AndroidManifest.xml:24:5-32:19
@@ -159,182 +159,182 @@ MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jjbae/
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jjbae/.gradle/caches/transforms-3/607a258681d626ebe80096cebb1b2f2c/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/97b76fc3bc08382366adbc90299f8332/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/97b76fc3bc08382366adbc90299f8332/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/d446525ecd72c3bd3e0448503aa110a4/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jjbae/.gradle/caches/transforms-3/d446525ecd72c3bd3e0448503aa110a4/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:requestLegacyExternalStorage
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:13:5-48
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:13:5-48
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:10:5-37
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:10:5-37
 	android:hardwareAccelerated
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:8:5-39
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:8:5-39
 	android:largeHeap
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:11:5-29
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:11:5-29
 	android:icon
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:9:5-34
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:9:5-39
 	android:allowBackup
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:7:5-32
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:7:5-32
 	android:theme
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:14:5-38
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:14:5-38
 	android:usesCleartextTraffic
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:15:5-40
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:15:5-40
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:12:5-57
-activity#m.idevel.hansolhomedeco.activity.MainActivity
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:17:5-40:16
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:12:5-50
+activity#com.idevel.krara.activity.MainActivity
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:17:5-40:16
 	android:screenOrientation
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:23:7-43
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:23:7-43
 	android:label
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:20:7-39
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:20:7-39
 	android:launchMode
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:21:7-38
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:21:7-38
 	android:windowSoftInputMode
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:24:7-49
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:24:7-49
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:19:7-30
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:19:7-30
 	android:configChanges
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:18:7-133
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:18:7-133
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:22:7-67
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:22:7-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:25:7-28:23
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:25:7-28:23
 action#android.intent.action.MAIN
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:26:9-61
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:26:9-61
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:26:17-58
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:26:17-58
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:27:9-69
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:27:9-69
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:27:19-66
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:show-app+data:scheme:idevel-hansolhomedeco
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:29:7-39:23
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:27:19-66
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:show-app+data:scheme:idevel-krara
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:29:7-39:23
 action#android.intent.action.VIEW
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:30:9-61
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:30:9-61
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:30:17-58
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:30:17-58
 category#android.intent.category.DEFAULT
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:32:9-68
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:32:9-68
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:32:19-65
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:32:19-65
 category#android.intent.category.BROWSABLE
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:33:9-70
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:33:9-70
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:33:19-67
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:33:19-67
 data
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:36:9-38:52
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:36:9-38:43
 	android:host
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:37:11-34
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:37:11-34
 	android:scheme
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:38:11-49
-activity#m.idevel.hansolhomedeco.activity.PushPopupActivity
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:42:5-48:53
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:38:11-40
+activity#com.idevel.krara.activity.PushPopupActivity
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:42:5-48:53
 	android:screenOrientation
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:46:7-46
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:46:7-46
 	android:excludeFromRecents
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:43:7-40
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:43:7-40
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:44:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:44:7-31
 	android:theme
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:48:7-50
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:48:7-50
 	android:taskAffinity
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:47:7-58
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:47:7-58
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:45:7-72
-activity#m.idevel.hansolhomedeco.activity.DevActivity
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:51:5-54:53
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:45:7-65
+activity#com.idevel.krara.activity.DevActivity
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:51:5-54:53
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:52:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:52:7-31
 	android:theme
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:54:7-50
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:54:7-50
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:53:7-66
-activity#m.idevel.hansolhomedeco.activity.QrcodeScanActivity
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:56:5-63:43
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:53:7-59
+activity#com.idevel.krara.activity.QrcodeScanActivity
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:56:5-63:43
 	android:screenOrientation
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:60:7-45
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:60:7-45
 	android:stateNotNeeded
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:61:7-36
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:61:7-36
 	android:hardwareAccelerated
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:58:7-41
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:58:7-41
 	android:windowSoftInputMode
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:62:7-54
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:62:7-54
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:57:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:57:7-31
 	tools:replace
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:63:7-40
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:63:7-40
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:59:7-73
-activity#m.idevel.hansolhomedeco.activity.QrcodeCaptureActivity
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:66:5-71:51
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:59:7-66
+activity#com.idevel.krara.activity.QrcodeCaptureActivity
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:66:5-71:51
 	android:screenOrientation
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:69:7-43
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:69:7-43
 	android:stateNotNeeded
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:70:7-36
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:70:7-36
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:67:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:67:7-31
 	tools:replace
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:71:7-48
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:71:7-48
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:68:7-76
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:68:7-69
 meta-data#iap:api_version
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:74:5-76:27
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:74:5-76:27
 	android:value
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:76:7-24
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:76:7-24
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:75:7-37
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:75:7-37
 meta-data#iap:view_option
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:78:5-80:38
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:78:5-80:38
 	android:value
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:80:7-35
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:80:7-35
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:79:7-37
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:79:7-37
 meta-data#com.google.android.gms.version
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:84:5-86:63
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:84:5-86:63
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jjbae/.gradle/caches/transforms-3/607a258681d626ebe80096cebb1b2f2c/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/jjbae/.gradle/caches/transforms-3/607a258681d626ebe80096cebb1b2f2c/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:86:7-60
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:86:7-60
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:85:7-52
-receiver#m.idevel.hansolhomedeco.broadcast.DataSaverChangeReceiver
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:89:5-93:91
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:85:7-52
+receiver#com.idevel.krara.broadcast.DataSaverChangeReceiver
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:89:5-93:84
 	android:enabled
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:90:7-29
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:90:7-29
 	android:label
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:92:7-38
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:92:7-38
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:91:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:91:7-31
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:93:7-79
-receiver#m.idevel.hansolhomedeco.broadcast.NetworkChangeReceiver
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:96:5-102:16
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:93:7-72
+receiver#com.idevel.krara.broadcast.NetworkChangeReceiver
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:96:5-102:16
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:97:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:97:7-31
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:98:7-77
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:98:7-70
 intent-filter#action:name:android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:99:7-101:23
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:99:7-101:23
 action#android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:100:9-83
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:100:9-83
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:100:17-80
-service#m.idevel.hansolhomedeco.fcm.FcmListenerService
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:104:5-110:15
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:100:17-80
+service#com.idevel.krara.fcm.FcmListenerService
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:104:5-110:15
 	android:exported
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:105:7-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:105:7-31
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:106:7-68
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:106:7-61
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:107:7-109:23
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:107:7-109:23
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:9-70
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:108:9-70
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:108:17-67
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:108:17-67
 uses-permission#android.permission.INTERNET
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:115:3-65
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:115:3-65
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:10:5-67
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:26:5-67
@@ -352,13 +352,13 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/8c99210ca28454e0f805a0c238fed5bf/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/8c99210ca28454e0f805a0c238fed5bf/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:115:20-62
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:115:20-62
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:116:3-79
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:116:3-79
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:116:20-76
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:116:20-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:117:3-77
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:117:3-77
 MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] /Users/jjbae/.gradle/caches/transforms-3/2d73b60643cc2ce7fe9b8a24a0bee1fc/transformed/jetified-transport-backend-cct-3.1.5/AndroidManifest.xml:25:5-79
@@ -378,9 +378,9 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/8c99210ca28454e0f805a0c238fed5bf/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/8c99210ca28454e0f805a0c238fed5bf/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:117:20-74
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:117:20-74
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:118:3-66
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:118:3-66
 MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:26:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/adceacdc527870b90fb70aa5501b7510/transformed/jetified-play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
@@ -394,47 +394,47 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/8c99210ca28454e0f805a0c238fed5bf/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/8c99210ca28454e0f805a0c238fed5bf/transformed/jetified-play-services-measurement-sdk-api-21.0.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:118:20-63
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:118:20-63
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:119:3-64
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:119:3-64
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:119:20-61
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:119:20-61
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:122:3-73
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:122:3-73
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:122:20-70
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:122:20-70
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:123:3-69
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:123:3-69
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:123:20-66
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:123:20-66
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:125:3-77
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:125:3-77
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:125:20-74
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:125:20-74
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:126:3-79
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:126:3-79
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:126:20-76
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:126:20-76
 uses-permission#android.permission.CAMERA
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:128:3-63
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:128:3-63
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:5-65
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:128:20-60
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:128:20-60
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:129:3-78
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:129:3-78
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:129:20-75
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:129:20-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:131:3-133:64
+ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:131:3-133:64
 	android:maxSdkVersion
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:132:5-31
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:132:5-31
 	android:name
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml:133:5-61
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml:133:5-61
 uses-sdk
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/4e9a6d0c62aae58aab28b82be9c49e43/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
@@ -453,16 +453,16 @@ MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle
 MERGED from [com.google.firebase:firebase-messaging:23.0.5] /Users/jjbae/.gradle/caches/transforms-3/08b2e76070437464b65e6124b763b311/transformed/jetified-firebase-messaging-23.0.5/AndroidManifest.xml:21:5-23:41
 MERGED from [com.google.firebase:firebase-appindexing:20.0.0] /Users/jjbae/.gradle/caches/transforms-3/38d8b77f081eec7bafff8184aec9be36/transformed/jetified-firebase-appindexing-20.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-appindexing:20.0.0] /Users/jjbae/.gradle/caches/transforms-3/38d8b77f081eec7bafff8184aec9be36/transformed/jetified-firebase-appindexing-20.0.0/AndroidManifest.xml:20:5-44
-MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/hansolhomedeco/mlAPI/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/hansolhomedeco/mlAPI/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/krara/mlAPI/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:mlAPI] /Users/jjbae/Desktop/backup/krara/mlAPI/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/3bcc3ad4e516dff7c5d63b0fd934bb10/transformed/jetified-firebase-crashlytics-ktx-18.2.11/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics-ktx:21.0.0] /Users/jjbae/.gradle/caches/transforms-3/baf623e511bf652f6bbf204aeaedbbed/transformed/jetified-firebase-analytics-ktx-21.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.1] /Users/jjbae/.gradle/caches/transforms-3/c719dc466181a43546972f1699aa7b7e/transformed/jetified-firebase-common-ktx-20.1.1/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/3062cd040b92e36b3808ce972ca4778c/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/dc234944a8e0fe76f4dc2493fa8a5a56/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/dc234944a8e0fe76f4dc2493fa8a5a56/transformed/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/jjbae/.gradle/caches/transforms-3/a501d6103f5f34904270cf578b58844f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/jjbae/.gradle/caches/transforms-3/a501d6103f5f34904270cf578b58844f/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-crashlytics:18.2.11] /Users/jjbae/.gradle/caches/transforms-3/bc798b7f42867bf92ad5640ed7d09c91/transformed/jetified-firebase-crashlytics-18.2.11/AndroidManifest.xml:6:5-8:41
@@ -551,8 +551,8 @@ MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/
 MERGED from [androidx.core:core:1.3.2] /Users/jjbae/.gradle/caches/transforms-3/2254c7d29c7d162ed4445528f5ef7729/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/a630e35a55da51f2a52604b569bbd5bd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jjbae/.gradle/caches/transforms-3/a630e35a55da51f2a52604b569bbd5bd/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/ee2ef2796efdc3fb4e30df7ec9e98adb/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/97b76fc3bc08382366adbc90299f8332/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/jjbae/.gradle/caches/transforms-3/97b76fc3bc08382366adbc90299f8332/transformed/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/cd2792a1ed06cd5a3691043ad78cef03/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/cd2792a1ed06cd5a3691043ad78cef03/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/57e318c1e625645faf2ec468c12a7910/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -583,16 +583,16 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jjbae/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jjbae/.gradle/caches/transforms-3/2b4a784f35674ee89185b8883d1d43b9/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jjbae/.gradle/caches/transforms-3/290ab4bcf6bd43f642895e725837152a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jjbae/.gradle/caches/transforms-3/290ab4bcf6bd43f642895e725837152a/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/jjbae/Desktop/backup/hansolhomedeco/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jjbae/Desktop/backup/krara/app/src/main/AndroidManifest.xml
 uses-feature#android.hardware.camera
 ADDED from [com.journeyapps:zxing-android-embedded:4.1.0] /Users/jjbae/.gradle/caches/transforms-3/20d34a4b392c8650b31f4fa1104f8604/transformed/jetified-zxing-android-embedded-4.1.0/AndroidManifest.xml:25:5-27:36
 	android:required
