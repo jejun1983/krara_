@@ -32,10 +32,10 @@ android {
             v1SigningEnabled true
             v2SigningEnabled true
 
-            storeFile file("../keystore/hansolhomedeco")
-            storePassword "hansolhomedeco"
+            storeFile file("../keystore/krara")
+            storePassword "idevel_krara"
             keyAlias "jjbae"
-            keyPassword "hansolhomedeco"
+            keyPassword "idevel_krara"
         }
     }
     buildTypes {
