@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_bg_gra01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/bg_gra01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_logo_2.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/logo_2.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_intro.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/intro.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_dialog_type_image.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/dialog_type_image.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_btn_left_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_btn_left_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_img_thumbnail_02.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/img_thumbnail_02.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_bg_gra01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/bg_gra01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_btn_left_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_btn_left_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_btn_right_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_btn_right_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_img_alarm.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/img_alarm.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_small_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/small_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_btn_right_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_btn_right_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_img_thumbnail_01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/img_thumbnail_01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_permission_ok.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/permission_ok.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_activity_dev.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/activity_dev.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_widget_popup_button.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/widget_popup_button.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_dialog_type_web.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/dialog_type_web.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_seekbar_bg.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/seekbar_bg.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/anim_progress_anim.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/anim/progress_anim.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_btn_left_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_btn_left_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_splash_03.jpg.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/splash_03.jpg"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_img_thumbnail_02.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/img_thumbnail_02.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_img_loading.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/img_loading.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_img_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/img_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_icon_call_circle.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/icon_call_circle.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_img_alarm.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/img_alarm.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_permission_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/permission_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_dialog_update_version.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/dialog_update_version.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_splash_bg_shape.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/splash_bg_shape.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_permission_cancel.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/permission_cancel.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_selector_popup_btn.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/selector_popup_btn.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_img_alarm.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/img_alarm.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_btn_right_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_btn_right_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_selector_popup_btn_right.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/selector_popup_btn_right.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_btn_left_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_btn_left_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_btn_left_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_btn_left_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_top_round_rectangle.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/top_round_rectangle.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_bi.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/bi.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_small_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/small_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_noti_icon.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/noti_icon.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_btn_left_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_btn_left_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_dialog_type_text.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/dialog_type_text.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_dialog_type_imagetext.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/dialog_type_imagetext.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/anim_disappear.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/anim/disappear.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_con_qr_toggle.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/con_qr_toggle.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_view_permission.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/view_permission.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_view_error.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/view_error.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_view_splash.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/view_splash.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_img_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/img_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_permission_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/permission_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_img_progress_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/img_progress_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_img_loading.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/img_loading.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_img_progress_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/img_progress_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_flash_off.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/flash_off.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_small_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/small_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_activity_qrcode_scan.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/activity_qrcode_scan.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/anim_splash_scale_anim.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/anim/splash_scale_anim.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_img_thumbnail_02.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/img_thumbnail_02.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_img_alarm.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/img_alarm.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_btn_left_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_btn_left_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_btn_right_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_btn_right_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_bi.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/bi.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_img_progress_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/img_progress_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_permission_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/permission_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_permission_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/permission_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_icon_call_circle.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/icon_call_circle.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_permission_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/permission_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_splash_03.jpg.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/splash_03.jpg"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_home_btn_foc.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/home_btn_foc.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_btn_right_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_btn_right_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_bg_gra01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/bg_gra01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_permission_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/permission_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_selector_popup_btn_left.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/selector_popup_btn_left.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_s_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/s_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_intro.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/intro.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_search_voice.gif.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/search_voice.gif"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_img_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/img_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_bg_cont_top.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/bg_cont_top.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_permission_main.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/permission_main.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_selector_btn_permission.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/selector_btn_permission.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_btn_left_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_btn_left_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_img_thumbnail_01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/img_thumbnail_01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_img_loading.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/img_loading.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable_bg_cont_bottom.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable/bg_cont_bottom.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/color_btn_yellow_box_text_selector.xml.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/color/btn_yellow_box_text_selector.xml"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_icon_call_circle.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/icon_call_circle.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_bg_gra01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/bg_gra01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_icon_call_circle.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/icon_call_circle.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_btn_right_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_btn_right_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_permission_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/permission_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_btn_right_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_btn_right_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_img_progress_bg.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/img_progress_bg.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_img_thumbnail_02.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/img_thumbnail_02.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_permission_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/permission_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_popup_btn_right_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/popup_btn_right_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_popup_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/popup_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_main.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/main.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_dm_splash.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/dm_splash.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_popup_btn_press.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/popup_btn_press.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_popup_btn_normal.9.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/popup_btn_normal.9.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_img_thumbnail_01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/img_thumbnail_01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_flash_on.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/flash_on.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xxhdpi_img_thumbnail_01.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xxhdpi/img_thumbnail_01.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-mdpi_intro.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-mdpi/intro.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-xhdpi_img_loading.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-xhdpi/img_loading.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_img_logo.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/img_logo.png"
+    },
+    {
+        "merged": "/Users/jjbae/Desktop/backup/krara/app/build/intermediates/res/merged/release/drawable-hdpi_intro.png.flat",
+        "source": "/Users/jjbae/Desktop/backup/krara/app/src/main/res/drawable-hdpi/intro.png"
+    }
+]
