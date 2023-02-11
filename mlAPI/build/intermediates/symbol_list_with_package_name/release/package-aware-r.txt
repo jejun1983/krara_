@@ -1,2 +1,0 @@
-kr.co.medialog.mlapi
-string app_name

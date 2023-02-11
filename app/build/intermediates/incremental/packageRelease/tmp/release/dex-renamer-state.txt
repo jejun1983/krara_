@@ -1,4 +1,0 @@
-#Tue Jan 10 13:46:26 KST 2023
-base.0=/Users/jjbae/Desktop/backup/krara/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

@@ -46,7 +46,20 @@ open class MyWebChromeClient(private val mContext: Context, mainView: RelativeLa
     override fun onPermissionRequest(request: PermissionRequest) {
         DLog.e("bjj MyWebChromeClient onPermissionRequest ==>> $request")
 
-        request.grant(request.resources)
+        val requestedResources = request.resources
+
+        for (r in requestedResources) {
+            if (r == PermissionRequest.RESOURCE_VIDEO_CAPTURE || r == PermissionRequest.RESOURCE_AUDIO_CAPTURE) {
+                request.grant(
+                        arrayOf(
+                                PermissionRequest.RESOURCE_VIDEO_CAPTURE,
+                                PermissionRequest.RESOURCE_AUDIO_CAPTURE
+                        )
+                )
+
+                break
+            }
+        }
     }
 
     override fun onShowCustomView(view: View, callback: WebChromeClient.CustomViewCallback) {
